@@ -1,0 +1,39 @@
+/* MAXMA · October revisions. Original Object Sans and visual language. */
+[hidden]{display:none!important}
+.results--brands{left:40px;top:1760px;width:1360px;display:grid;grid-template-columns:560px 1fr;gap:56px;align-items:center;min-height:430px}
+.results__copy h2{font-size:38px;font-weight:500;line-height:1.14;letter-spacing:-1.2px;margin-bottom:30px}
+.results__copy p{font-size:21px;line-height:1.5;color:var(--ink-60);margin-top:20px}
+.results__copy b{font-weight:500;color:var(--ink);background:linear-gradient(100deg,#eee5ff,#e0f6f4);border-radius:7px;padding:2px 5px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.brand-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.brand-tile{height:180px;border-radius:24px;background:#f2f3f8;display:flex;align-items:center;justify-content:center;padding:22px}
+.brand-tile img{display:block;width:100%;height:95px;object-fit:contain;filter:grayscale(1);mix-blend-mode:multiply}
+.results--comm{top:3810px}
+.ccl__track{width:100%;justify-content:flex-start}
+.ccl__row{overflow:hidden;position:relative}
+.ccase{width:calc((1400px - 16px)/2);height:630px;background-size:100% 100%}
+.ccl__row{height:630px}
+.pharmacy-case{position:relative;color:white;background:url('../assets/img/case-pharmacy-bg.png') center/cover}
+.pharmacy-case__logo{position:absolute;left:44px;top:46px;width:240px;height:75px;object-fit:contain;object-position:left;filter:brightness(0) invert(1)}
+.pharmacy-case__number{position:absolute;left:44px;top:260px;font-weight:900;font-size:120px;letter-spacing:-6px;line-height:1;-webkit-text-stroke:15px #190928;paint-order:stroke fill}
+.pharmacy-case__caption{position:absolute;left:44px;top:420px;font-size:25px;font-weight:500;line-height:1.3}
+.pharmacy-case__button{position:absolute;left:44px;bottom:42px;background:white;border-radius:50px;padding:19px 29px;font-size:17px;font-weight:500;color:var(--ink)}
+.cases-empty{padding:80px;text-align:center;color:var(--ink-60);font-size:24px}
+.stage-tabs{width:450px;height:auto;gap:8px;padding:0;justify-content:flex-start;background:transparent}
+.stab{width:100%;min-height:99px;height:auto;padding:16px 18px;border-radius:20px;justify-content:flex-start;align-items:center;text-align:left;white-space:normal;opacity:1;background:#f5f4f8;gap:18px}
+.stab img{width:52px;height:49px;object-fit:contain;flex-shrink:0;transition:transform .2s}
+.stab:hover img,.stab.is-active img{transform:rotate(-7deg) scale(1.06)}
+.stab strong{font-size:21px;line-height:1.15;letter-spacing:-.45px;font-weight:500;display:block}
+.stab small{font-size:15px;line-height:1.3;display:block;color:var(--ink-60);margin-top:6px;letter-spacing:0;font-weight:400}
+.stab.is-active{background:linear-gradient(110deg,#e8ddff,#ddf5ef);box-shadow:inset 0 0 0 1px #d1c0ed}
+.pcards{left:494px;width:926px;height:640px}
+.pcard,.pcard--wide{width:926px;height:518px;background-size:contain;background-repeat:no-repeat}
+.pcard__more{left:35px;top:333px;width:163px;height:50px}
+.cmetric{border:0;background:linear-gradient(135deg,#eee1ff,#e7eaff)}
+.cmetric:nth-child(2){background:linear-gradient(135deg,#dbf4ed,#e2f4f7)}
+.cmetric:nth-child(3){background:linear-gradient(135deg,#e0ecff,#e9e0fc)}
+.cmetric:nth-child(4){background:linear-gradient(135deg,#fbe5ed,#f4e8ff)}
+.cmetric__label{opacity:.75}
+
+.brand-tile img[src*="brand-shakh"]{filter:brightness(0) opacity(.75)}
+
+.brand-tile img[src*="brand-arnypraht"],.brand-tile img[src*="brand-superstep"]{filter:grayscale(1) contrast(12)}

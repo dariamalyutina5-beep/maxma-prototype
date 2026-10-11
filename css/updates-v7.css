@@ -1,0 +1,17 @@
+/* V7: stationary devices with larger, readable product screens. */
+.hdr a.hdr__link{text-decoration:none;color:inherit}
+.pmenu__promo-desc{max-width:460px}
+.v7-comms-laptop{position:absolute;left:0;top:127px;width:466px;filter:drop-shadow(0 9px 9px #20123922)}
+.v7-comms-screen{position:relative;height:335px;padding:0;border:8px solid #202124;border-bottom-width:16px;border-radius:11px 11px 3px 3px;background:#f5f7f8;overflow:hidden;box-shadow:0 0 0 1px #737477}
+.v7-comms-screen>img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.v7-comms-screen .v5-ab-popup{left:14px;top:auto;bottom:12px;width:244px;padding:12px;gap:9px;border-radius:12px;box-shadow:0 6px 20px #29213d26}
+.v7-comms-screen .v5-ab-popup b{font-size:12px}.v7-comms-screen .v5-ab-popup p{font-size:9px;margin:4px 0 7px}.v7-comms-screen .v5-ab-icon{width:30px;height:30px;font-size:10px;border-radius:8px}.v7-comms-screen .v5-ab-action{font-size:9px;padding:5px 8px}
+.v7-keyboard{position:relative;left:-21px;width:508px;height:65px;background:linear-gradient(#46484a,#343638 82%,#b4b7b9 83%,#818689 92%,#37393b);clip-path:polygon(4% 0,96% 0,100% 87%,99% 98%,1% 98%,0 87%);border-radius:0 0 8px 8px}
+.v7-keyboard-keys{position:absolute;left:43px;right:43px;top:5px;height:28px;transform:perspective(100px) rotateX(15deg);border-radius:3px;background:repeating-linear-gradient(0deg,transparent 0 6px,#606366 6px 8px),repeating-linear-gradient(90deg,#202224 0 17px,#65696c 17px 20px);border:1px solid #74787b}
+.v7-trackpad{position:absolute;left:192px;top:37px;width:124px;height:16px;border:1px solid #85888a;border-radius:3px;background:#36383a}
+.v7-shop-monitor{position:absolute;left:7px;top:77px;width:475px;filter:drop-shadow(0 7px 8px #20123922)}
+.v7-shop-monitor .laptop-screen{height:350px;border:9px solid #252528;border-bottom:0;border-radius:13px 13px 0 0;background:white}
+.v7-shop-monitor .v5-monitor-chin{height:23px}.v7-shop-monitor .v5-monitor-stand{height:63px}
+.home-refined .v7-rfm-tablet{width:560px;height:366px;right:-62px;top:153px}
+.v7-rfm-tablet .rfm-crop{height:265px}.v7-rfm-tablet .rfm-heading{padding:14px 13px 10px}
+.product-panel--comms .device-visual::after{top:528px}

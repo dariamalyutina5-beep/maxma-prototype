@@ -1,0 +1,60 @@
+/* Shared clickable navigation; no layout shift on hover. */
+.hdr a.hdr__link,.hdr__link--btn{cursor:pointer}
+.hdr a.hdr__link:hover,.hdr__link--btn:hover,.hdr a.hdr__link[aria-current="page"]{background:#fff;box-shadow:inset 0 0 0 1px #d9d1e2}
+.hdr a.hdr__link:focus-visible,.hdr__link--btn:focus-visible{outline:2px solid #8756d7;outline-offset:2px}
+.pricing-page{background:#fff;color:var(--ink)}
+.pricing-main{width:1440px;margin:0 auto;padding:154px 100px 0}
+.pricing-hero{position:relative;text-align:center;padding:22px 0 72px}
+.pricing-kicker{font-size:12px;letter-spacing:2.2px;color:#92829f;margin-bottom:26px}
+.pricing-hero h1{font-size:64px;line-height:1.1;letter-spacing:-2.8px;font-weight:500}
+.pricing-hero h1 span,.pricing-personal-intro h2 span{color:transparent;background:linear-gradient(105deg,#7020cc 10%,#5754e8 55%,#499aca 100%);background-clip:text;-webkit-background-clip:text}
+.pricing-hero>p:last-child{font-size:19px;line-height:1.5;color:#84778f;margin-top:28px}
+.pricing-calculator{display:grid;grid-template-columns:760px 440px;gap:40px;align-items:start}
+.pricing-config{display:flex;flex-direction:column;gap:26px}
+.price-base,.price-modules{position:relative;background:#f8f6fb;border:1px solid #ece6f1;border-radius:28px;padding:34px}
+.price-base h2,.price-modules h2{font-size:26px;font-weight:500;letter-spacing:-.6px;padding-right:35px;margin-bottom:26px}
+.price-step{position:absolute;right:32px;top:35px;font-size:14px;color:#a590ba}
+.price-base>label{display:block;font-size:14px;margin-bottom:12px;color:#73647f}
+.price-input-wrap{display:flex;align-items:center;gap:20px;border:1px solid #d6c7e7;border-radius:16px;background:#fff;padding:16px 22px;transition:box-shadow .2s}
+.price-input-wrap:focus-within{box-shadow:0 0 0 3px #8651d51c;border-color:#9f76ce}
+.price-input-wrap input{font:500 34px/1.2 var(--sans);color:var(--ink);min-width:0;width:100%;border:0;outline:0;background:transparent;letter-spacing:-1px}
+.price-input-wrap>span{font-size:15px;color:#a092ac}
+#baseHint{font-size:13px;line-height:1.5;color:#93849f;margin-top:13px}
+#baseError{font-size:13px;color:#a82f51;margin-top:12px}
+.price-included{padding:20px 22px;background:linear-gradient(110deg,#e9e1f5,#e5f2ef);border-radius:18px;margin-bottom:20px}
+.price-included>div{display:flex;justify-content:space-between;align-items:center;gap:15px}
+.price-included b{font-size:16px;font-weight:500}.price-included>div>span{font-size:11px;color:#746786;background:#ffffff90;padding:6px 10px;border-radius:20px}
+.price-included p{font-size:13px;line-height:1.9;color:#716880;margin-top:12px}
+.price-options{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.price-option{position:relative;display:flex;align-items:flex-start;gap:12px;padding:20px 15px;min-height:121px;background:#fff;border:1px solid #e8e1ef;border-radius:17px;cursor:pointer;transition:border-color .18s,background .18s,box-shadow .18s}
+.price-option:hover{border-color:#b49bcf}.price-option.is-selected{background:#f1eafa;border-color:#a981d1}
+.price-option input{position:absolute;opacity:0;width:22px;height:22px;left:15px;top:20px}
+.price-check{width:22px;height:22px;flex:none;border:1.5px solid #d5c8e1;border-radius:7px;display:grid;place-items:center;background:white;margin-top:1px}
+.price-option input:checked+.price-check{background:linear-gradient(130deg,#782bc6,#5557eb);border-color:transparent;color:white}
+.price-option input:checked+.price-check:after{content:'✓';font-size:14px}
+.price-option input:focus-visible+.price-check{outline:2px solid #7140ab;outline-offset:3px}
+.price-option b{display:block;font-size:16px;line-height:1.3;font-weight:500;margin-bottom:8px}
+.price-option small{display:block;font-size:12px;line-height:1.5;color:#8a7b97}
+.price-package-note{font-size:12px;line-height:1.6;color:#97879f;margin-top:20px}
+.price-result{position:sticky;top:110px;padding:34px;border-radius:28px;background:radial-gradient(ellipse at 100% 0,#d9e9ff,transparent 65%),linear-gradient(150deg,#eee1fb,#f3edf9 62%,#e2f1ee);border:1px solid #e1d4ee;box-shadow:0 14px 40px #4a26790a}
+.price-result-label{font-size:11px;color:#9177a3;letter-spacing:1.8px;margin-bottom:24px}
+.price-plan-line{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.price-plan-line h2{font-size:26px;font-weight:500;letter-spacing:-.6px}
+.price-plan-pill{font-size:10px;background:#fff9;border-radius:15px;padding:7px 9px;color:#917fa2}
+.price-total{font-size:49px;letter-spacing:-2px;line-height:1.15;font-weight:500;margin-top:26px;white-space:nowrap}
+#pricePeriod{font-size:14px;color:#94829e;margin-top:8px}
+.price-summary{margin-top:27px;border-top:1px solid #d4c3e1;padding-top:20px;display:grid;gap:14px}
+.price-summary p{display:flex;justify-content:space-between;font-size:13px;gap:16px}.price-summary span{color:#8b779a}.price-summary b{font-weight:500}
+.price-result-explain{font-size:13px;line-height:1.55;color:#806a92;margin-top:24px;min-height:60px}
+.price-offer{width:100%;font-size:15px;margin-top:25px;padding:19px 15px;display:flex;justify-content:center}
+.price-estimate{font-size:12px;line-height:1.6;color:#8c799b;margin-top:18px}.price-exclusions{font-size:11px;line-height:1.6;color:#a090ac;margin-top:12px}
+.pricing-personal-intro{display:flex;justify-content:space-between;align-items:center;padding:112px 38px 48px}
+.pricing-personal-intro h2{font-size:44px;line-height:1.13;letter-spacing:-1.5px;font-weight:500}
+.pricing-personal-intro>p{font-size:16px;line-height:1.5;color:#8c7a98}
+.pricing-page .pricing-lead{position:relative;left:0;top:0;width:1240px;height:650px;margin-bottom:80px;border-radius:28px;background:#faf8fc;overflow:hidden;scroll-margin-top:110px}
+.pricing-page .lead__form{left:55px;top:58px;width:455px;gap:26px}
+.pricing-page .lead__title{font-size:29px;letter-spacing:-.8px;text-transform:none}.pricing-page .lead__sub{font-size:15px}
+.pricing-page .lead__visual{left:auto;right:0;top:0;width:620px;height:650px;border-radius:0}
+.pricing-page .ftr{position:relative;left:0;top:0;margin:0 auto 20px}
+
+.price-selected{border-top:1px solid #d4c3e1;padding-top:18px;margin-top:4px}.price-selected[hidden]{display:none}.price-selected>p{color:#8b779a;font-size:13px;margin-bottom:12px}.price-selected ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}.price-selected li{font-size:14px;line-height:1.4;display:flex;gap:9px}.price-selected li:before{content:"✓";color:#8861ae}

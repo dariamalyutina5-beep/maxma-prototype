@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="ru"><head>
+<meta charset="utf-8"/>
+<meta content="width=1440" name="viewport"/>
+<title>Тарифы MAXMA — расчёт стоимости</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400..500&amp;display=swap" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<link href="css/revisions.css" rel="stylesheet"/>
+<link href="css/refinement.css" rel="stylesheet"/>
+<link href="css/visuals-v4.css" rel="stylesheet"/><link href="css/updates-v5.css" rel="stylesheet"/><link href="css/updates-v6.css" rel="stylesheet"/><link href="css/updates-v7.css" rel="stylesheet"/><link href="css/pricing.css" rel="stylesheet"/></head><body class="pricing-page"><div class="hdr-bar">
+<header class="hdr" data-node="14:130">
+<div class="hdr__left">
+<a aria-label="MAXMA" class="hdr__logo ph ph--svg" data-asset="logo-maxma" href="index.html"></a>
+<nav class="hdr__nav" data-node="29:542">
+<button aria-controls="productMenu" aria-expanded="false" class="hdr__link hdr__link--btn" id="productToggle" type="button">Продукт</button>
+<a aria-current="page" class="hdr__link" href="pricing.html">Тарифы</a>
+<a class="hdr__link" href="https://maxma.com/blog/category/cases">Блог</a>
+</nav>
+</div>
+<div class="hdr__right">
+<a class="hdr__phone" href="tel:+74999384980">+7 (499) 938 49 80</a>
+<div class="hdr__actions">
+<a class="btn btn--outline" href="#lead">Связаться с нами</a>
+<a class="btn btn--dark" href="https://maxma.com/request-demo">Демо</a>
+</div>
+</div>
+</header>
+<!-- Product mega menu · 29:556 -->
+<div aria-labelledby="productToggle" class="pmenu" data-node="29:556" id="productMenu">
+<div class="pmenu__col">
+<p class="pmenu__label">Реактивация</p>
+<a class="pmenu__item" href="communications.html">
+<img alt="" class="pmenu__icon" height="42" src="assets/img/menu-communications.png" width="48"/>
+<span class="pmenu__text">
+<span class="pmenu__title">Коммуникации</span>
+<span class="pmenu__desc">Email, SMS, Telegram, MAX и Push<br/>в одном окне</span>
+</span>
+</a>
+<a class="pmenu__item" href="index.html#">
+<img alt="" class="pmenu__icon" height="42" src="assets/img/menu-integration.png" width="48"/>
+<span class="pmenu__text">
+<span class="pmenu__title">Работа с сайтом</span>
+<span class="pmenu__desc">Брошенные сессии, ML-рекомендации и поп-апы</span>
+</span>
+</a>
+</div>
+<div class="pmenu__col">
+<p class="pmenu__label">Лояльность</p>
+<a class="pmenu__item" href="index.html#">
+<img alt="" class="pmenu__icon" height="42" src="assets/img/menu-loyalty.png" width="48"/>
+<span class="pmenu__text">
+<span class="pmenu__title">Программа лояльности</span>
+<span class="pmenu__desc">Конструктор Wallet-карт, бонусная система, акции и промокоды</span>
+</span>
+</a>
+<a class="pmenu__item" href="index.html#">
+<img alt="" class="pmenu__icon" height="39" src="assets/img/menu-growth.png" width="48"/>
+<span class="pmenu__text">
+<span class="pmenu__title">Рост клиентской базы</span>
+<span class="pmenu__desc">Формы захвата, «Приведи друга» и подарочные карты</span>
+</span>
+</a>
+</div>
+<div class="pmenu__col">
+<p class="pmenu__label">Данные и аналитика</p>
+<a class="pmenu__item" href="index.html#">
+<img alt="" class="pmenu__icon" height="42" src="assets/img/menu-cdp.png" width="48"/>
+<span class="pmenu__text">
+<span class="pmenu__title">CDP — клиентская база</span>
+<span class="pmenu__desc">Единый профиль клиента с глубокой сегментацией</span>
+</span>
+</a>
+<a class="pmenu__item" href="index.html#">
+<img alt="" class="pmenu__icon" height="42" src="assets/img/menu-analytics.png" width="48"/>
+<span class="pmenu__text">
+<span class="pmenu__title">Аналитика</span>
+<span class="pmenu__desc">Конструктор отчётов, A/B-тесты и RFM-анализ</span>
+</span>
+</a>
+</div>
+<div class="pmenu__promo" data-node="29:599">
+<span aria-hidden="true" class="pmenu__blob pmenu__blob--violet"><span><img alt="" src="assets/img/menu-blob-violet.svg"/></span></span>
+<span aria-hidden="true" class="pmenu__blob pmenu__blob--cyan"><span><img alt="" src="assets/img/menu-blob-cyan.svg"/></span></span>
+<p class="pmenu__promo-title">Не знаете,<br/>с чего начать?</p>
+<p class="pmenu__promo-desc">Предложим вариант стратегии для вашего бизнеса и запустим за 30 дней</p>
+<a class="btn btn--grad pmenu__promo-btn" href="#lead">Спросить нас</a>
+</div>
+</div>
+</div><div class="menu-dim" id="menuDim"></div><main class="pricing-main">
+<section class="pricing-hero"><p class="pricing-kicker">ТАРИФЫ MAXMA</p><h1>Рассчитайте стоимость<br/><span>для вашего бизнеса</span></h1><p>Укажите размер клиентской базы и выберите нужные возможности.</p></section>
+<section aria-label="Калькулятор тарифа" class="pricing-calculator">
+<div class="pricing-config">
+<div class="price-base"><h2>Ваша клиентская база</h2><label for="customerCount">Количество клиентов</label><div class="price-input-wrap"><input aria-describedby="baseHint baseError" autocomplete="off" id="customerCount" inputmode="numeric" type="text" value="20 000"/><span>клиентов</span></div><p id="baseHint">Размер общей базы покупателей из розницы и интернет-магазина.</p><p hidden="" id="baseError" role="alert">Введите целое число клиентов — от 1.</p></div>
+<div class="price-modules"><h2>Что нужно вашему бизнесу?</h2><div class="price-included"><div><b>Основа уже включена</b><span>Во все тарифы</span></div><p>✓ CDP и бонусная программа   ✓ Аналитика и отчётность<br/>✓ Wallet-карты   ✓ Промокоды   ✓ SMS и Wallet Push</p></div><div class="price-options"><label class="price-option"><input data-tier="1" name="module" type="checkbox" value="email"/><span aria-hidden="true" class="price-check"></span><span><b>Email-рассылки</b><small>Письма, персонализация и аналитика рассылок</small></span></label><label class="price-option"><input data-tier="1" name="module" type="checkbox" value="promotions"/><span aria-hidden="true" class="price-check"></span><span><b>Акции</b><small>Бонусные и скидочные механики для ваших клиентов</small></span></label><label class="price-option"><input data-tier="1" name="module" type="checkbox" value="referral"/><span aria-hidden="true" class="price-check"></span><span><b>Реферальная программа</b><small>Вознаграждения за рекомендации и новых покупателей</small></span></label><label class="price-option"><input data-tier="2" name="module" type="checkbox" value="chains"/><span aria-hidden="true" class="price-check"></span><span><b>Цепочки коммуникаций</b><small>Автоматические сценарии в визуальном конструкторе</small></span></label><label class="price-option"><input data-tier="2" name="module" type="checkbox" value="ecom"/><span aria-hidden="true" class="price-check"></span><span><b>Работа с сайтом</b><small>Брошенные корзины, товарные рекомендации и сбор подписчиков</small></span></label><label class="price-option"><input data-tier="2" name="module" type="checkbox" value="gifts"/><span aria-hidden="true" class="price-check"></span><span><b>Подарочные карты</b><small>Электронные и физические карты для сайта и розницы</small></span></label><label class="price-option"><input data-tier="2" name="module" type="checkbox" value="rfm"/><span aria-hidden="true" class="price-check"></span><span><b>Smart RFM</b><small>Сегменты по покупательской активности и работа с оттоком</small></span></label><label class="price-option"><input data-tier="2" name="module" type="checkbox" value="telegram"/><span aria-hidden="true" class="price-check"></span><span><b>Telegram-бот</b><small>Регистрация, подтверждение номера и рассылки в боте</small></span></label></div></div>
+</div>
+<aside aria-label="Результат расчёта" class="price-result"><div aria-atomic="true" aria-live="polite" class="price-result-content"><p class="price-result-label">ВАШ РАСЧЁТ</p><div class="price-total" id="priceTotal">33 000 ₽</div><p id="pricePeriod">в месяц</p><div class="price-summary"><p><span>Клиентская база</span><b id="summaryCount">20 000</b></p><div class="price-selected" hidden="" id="selectedOptions"><p>Выбранные опции</p><ul id="selectedOptionsList"></ul></div></div></div><a class="btn btn--grad price-offer" href="#lead">Получить предложение</a><p class="price-estimate">Расчёт примерный. Для персонального предложения заполните форму ниже.</p><p class="price-exclusions">Интеграция, настройка и сообщения SMS/Viber рассчитываются отдельно.</p></aside>
+</section>
+<section class="pricing-personal-intro"><h2>Обсудим задачи<br/><span>вашего бизнеса</span></h2><p>Оставьте контакты — подберём конфигурацию<br/>и подготовим персональное предложение.</p></section>
+<section class="lead pricing-lead" data-node="14:423" id="lead">
+<form class="lead__form" data-node="14:394" data-prototype="true" id="leadForm" novalidate="">
+<div class="lead__head">
+<p class="lead__title">Получить предложение</p>
+<p class="lead__sub">Подберём MAXMA под ваши задачи</p>
+</div>
+<div class="lead__fields">
+<label class="field"><input aria-label="Ваше имя" autocomplete="name" name="name" placeholder="Ваше имя" required="" type="text"/></label>
+<label class="field"><input aria-label="Контактный телефон" autocomplete="tel" name="phone" placeholder="Контактный телефон" required="" type="tel"/></label>
+<label class="field"><input aria-label="Ваш email" autocomplete="email" name="email" placeholder="Ваш email" required="" type="email"/></label>
+<label class="field"><input aria-label="Компания" autocomplete="organization" name="company" placeholder="Компания" required="" type="text"/></label>
+</div>
+<button class="btn btn--grad lead__submit" type="submit">Получить предложение</button>
+<div class="lead__agreement">
+<label class="check"><input name="ads" type="checkbox"/><span class="check__box"></span><span class="check__label">Соглашаюсь на получение рекламы</span></label>
+<p class="lead__legal">Оставляя заявку, вы соглашаетесь на обработку персональных данных</p>
+</div>
+</form>
+<div class="lead__visual ph" data-asset="lead-visual" data-node="14:414"></div>
+</section></main><footer class="ftr" data-node="27:243">
+<span class="ftr__logo ph ph--svg" data-asset="logo-maxma-white"></span>
+<div class="ftr__contacts" data-node="27:263">
+<a class="ftr__contact" href="tel:+74999384980">+7 (499) 938 49 80</a>
+<a class="ftr__contact" href="mailto:hello@maxma.com">hello@maxma.com</a>
+<div class="ftr__social">
+<a aria-label="vc.ru" class="ftr__soc ftr__soc--vc" href="#"><img alt="" height="22.1849" src="assets/img/soc-vc.svg" width="23.8125"/></a>
+<img alt="YouTube, Telegram" class="ftr__soc" height="32" src="assets/img/soc-yt-tg.svg" width="84"/>
+</div>
+</div>
+<div class="ftr__sub" data-node="27:284">
+<div class="ftr__subhead">
+<p class="ftr__subtitle">Подписаться на рассылку</p>
+<p class="ftr__subdesc"><span>Получайте обновления платформы, журнал</span><span>и события. Без спама</span></p>
+</div>
+<form class="ftr__subform" id="subForm" novalidate="">
+<input autocomplete="email" name="email" placeholder="Ваш e-mail" type="email"/>
+<button class="btn btn--white btn--pill" type="submit">Подписаться</button>
+</form>
+<label class="check check--light"><input name="consent" type="checkbox"/><span class="check__box"></span><span class="check__label">Соглашаюсь на передачу данных</span></label>
+</div>
+<div class="ftr__body" data-node="27:245">
+<hr class="ftr__rule"/>
+<div class="ftr__cols" data-node="27:247">
+<div class="ftr__col">
+<p class="ftr__coltitle">Продукт</p>
+<ul><li><a href="#">Лояльность</a></li><li><a href="#">CDP</a></li><li><a href="communications.html">Коммуникации</a></li><li><a href="#">Аналитика</a></li><li><a href="pricing.html">Тарифы</a></li></ul>
+</div>
+<div class="ftr__col">
+<p class="ftr__coltitle">Материалы</p>
+<ul><li><a href="#">Вебинары</a></li><li><a href="#">Курсы</a></li><li><a href="#">База знаний</a></li><li><a href="#">ROI-калькулятор</a></li><li><a href="#">Обновления</a></li></ul>
+</div>
+<div class="ftr__col">
+<p class="ftr__coltitle">Компания</p>
+<ul><li><a href="#">О компании</a></li><li><a href="#">Для партнёров</a></li><li><a href="#">Блог</a></li><li><a href="#">Контакты</a></li></ul>
+</div>
+<div class="ftr__legal" data-node="29:329">
+<p><span>© 2017-2023 MAXMA ООО "Доставка покупателей"</span><span>ИНН: 5041206183 КПП: 504101001 ОГРН: 1175053011451</span></p>
+<div class="ftr__addr">
+<p><span>Москва</span><span>Малая Семёновская, 3А стр 1</span></p>
+<p><span>Амстердам</span><span>Veeteeltstraat 58, 1097WZ</span></p>
+</div>
+</div>
+</div>
+</div>
+</footer><div aria-live="polite" class="toast" id="toast" role="status"></div><script src="js/main.js"></script><script src="js/pricing-data.js"></script><script src="js/pricing.js"></script></body></html>

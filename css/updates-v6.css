@@ -1,0 +1,47 @@
+/* V6: focused CDP, communications efficiency, editorial cases and e-commerce. */
+.home-refined .product-panel--data .v5-tablet{width:560px;height:366px;right:-62px;top:153px}
+.home-refined .product-panel--data .v5-tablet-screen>img{object-fit:contain;background:#fff}
+.communications-v6 .stage--comm{height:7030px}
+.communications-v6 .csteps--trig{height:650px}
+.communications-v6 .csteps--trig .csteps__col{height:650px}
+.communications-v6 .efficiency-section{top:3272px;height:620px;align-items:center;gap:70px}
+.communications-v6 .efficiency-section .csteps__card{width:520px;height:620px;flex:none;overflow:hidden;border-radius:24px}
+.communications-v6 .efficiency-section .csteps__col{height:620px;width:574px;justify-content:flex-start;gap:40px;padding:10px 0}
+.communications-v6 .efficiency-section .csteps__title{font-size:37px;line-height:1.18}
+.communications-v6 .efficiency-steps{width:100%}
+.communications-v6 .efficiency-steps .why-item{padding:23px 0}
+.communications-v6 .efficiency-steps .why-item__desc{height:auto;display:none;font-size:16px;line-height:1.45}
+.communications-v6 .efficiency-steps .why-item.is-active .why-item__desc{display:block;height:auto}
+.efficiency-steps .why-item__bar{animation-duration:12s!important}
+#segCard .efficiency-shot{opacity:0!important;border-radius:24px;overflow:hidden;background:linear-gradient(135deg,#dfeafa,#f1edf9)}
+#segCard .efficiency-shot.is-active{opacity:1!important}
+#segCard .efficiency-shot--quiet{background:linear-gradient(135deg,#e1e9de,#f2f5e7)}
+#segCard .efficiency-shot--ab{background:linear-gradient(135deg,#e2dafa,#f2eafa)}
+.efficiency-window{position:absolute;top:155px;left:24px;width:742px;background:white;border:1px solid #fff;border-radius:14px;box-shadow:0 17px 30px #35274418;overflow:hidden}
+.efficiency-window>img{width:100%;height:auto;display:block;max-width:none}
+.efficiency-shot--quiet .efficiency-window{top:63px;left:24px;width:472px;height:493px}.efficiency-shot--quiet .efficiency-window>img{width:609px;margin-left:-20px}
+.efficiency-shot--ab .efficiency-window{top:86px;width:665px;height:462px}.efficiency-shot--ab .efficiency-window>img{width:660px}
+.communications-v6 .ccl--comm{top:4052px}
+.communications-v6 .ccl__title{width:930px}
+.comm-case{color:white;background-color:#21172d;background-position:center;background-size:cover;overflow:hidden}
+.comm-case::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#0e0a1920,#0e0a1920 36%,#180d3590 100%)}
+.comm-case--fixzone{background-image:url('../assets/img/v6-bg-fixzone.png')}.comm-case--blcv{background-image:url('../assets/img/v6-bg-blcv.png')}.comm-case--lji{background-image:url('../assets/img/v6-bg-lji.png')}
+.comm-case-brand{position:absolute;left:40px;right:35px;top:43px;font-size:38px;line-height:1.1;font-weight:700;letter-spacing:-1.3px;z-index:1}
+.comm-case-brand--fixzone{text-transform:uppercase;font-weight:800}.comm-case-brand--blcv{font-weight:500;letter-spacing:7px}.comm-case-brand--lji{font-family:Georgia,serif;font-size:31px;font-weight:400;letter-spacing:0}
+.ccl .comm-case .case-number{max-width:495px;height:108px;left:31px;top:238px}
+.ccl .comm-case .case-caption{font-size:20px;top:365px;line-height:1.35;right:20px}
+.case-metric-prefix{position:absolute;left:42px;top:213px;font-size:16px;color:#fff;font-weight:500}
+.communications-v6 .cbundle{top:4973px}
+.communications-v6 .cbundle__text{line-height:1.5}
+.communications-v6 .cbundle__icons img{object-fit:contain}
+.communications-v6 .clead{top:5715px}
+.communications-v6 .ftr--comm{top:6327px}
+.ecom-bundle-visual{left:550px;top:0;width:850px;height:672px;isolation:isolate}
+.ecom-bundle-tablet{position:absolute;left:115px;top:133px;width:665px;height:441px;border:12px solid #25262b;border-radius:24px;background:#f7f9fa;box-shadow:0 12px 24px #182c4730;overflow:hidden}
+.ecom-bundle-tablet>img{height:100%;width:100%;object-fit:contain;display:block}
+.ecom-bundle-tablet::after{content:'';position:absolute;left:40%;right:40%;bottom:3px;height:3px;background:#24242b;border-radius:3px}
+.ecom-push{position:absolute;display:flex;align-items:center;gap:11px;width:328px;padding:18px 16px;border-radius:19px;background:#fffffff0;border:1px solid #fff;box-shadow:0 10px 25px #29385818;backdrop-filter:blur(15px);z-index:2;font-family:var(--sans);color:#25243b}
+.ecom-push--cart{left:33px;top:440px}.ecom-push--price{right:26px;top:71px}.ecom-push--personal{right:36px;bottom:34px;width:339px}
+.ecom-push-icon{width:38px;height:38px;flex:none;display:flex;align-items:center;justify-content:center;background:#d4c8f7;border-radius:11px;font-size:24px;color:#7751ae}
+.ecom-push--price .ecom-push-icon{background:#c9e9df;color:#368a70}.ecom-push--personal .ecom-push-icon{background:#ccdeff;color:#4267aa}
+.ecom-push b{font-size:12px;font-weight:500}.ecom-push p{font-size:10px;line-height:1.45;margin-top:6px;color:#736b7b}.ecom-push>small{position:absolute;right:15px;top:8px;font-size:7px;color:#98909f}

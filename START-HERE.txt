@@ -1,0 +1,3 @@
+Распакуйте весь архив и откройте index.html.
+Страницы: index.html — главная; communications.html — рассылки; pricing.html — тарифы.
+Не перемещайте HTML отдельно от папок css, js и assets.

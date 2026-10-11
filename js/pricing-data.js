@@ -1,0 +1,1 @@
+window.MAXMA_PRICING = {"thresholds": [5000.0, 10000.0, 50000.0, 100000.0], "plans": [{"name": "Base", "small": 15000.0, "base": 23000.0, "rate1": 1.0, "rate2": 0.7}, {"name": "Standart", "small": 31100.0, "base": 39100.0, "rate1": 1.0, "rate2": 0.7}, {"name": "MAXIMUM", "small": 48600.0, "base": 56600.0, "rate1": 1.0, "rate2": 0.7}]};
